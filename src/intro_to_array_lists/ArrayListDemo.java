@@ -24,7 +24,7 @@ public class ArrayListDemo {
 		//iterating through list with for-each loop
 		for(String s : names){
 			System.out.println(s);
-		}
+		}                                       
 		System.out.println("\n");
 		
 		System.out.println("Here's an ArrayList of Integers:\n");

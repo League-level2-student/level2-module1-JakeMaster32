@@ -24,9 +24,16 @@ public class IntroToArrayLists {
 		//5. Print only the even numbered elements in the list.
 		for (int y = 0; y<5; y= y+2) {System.out.println(array.get(y));}
 		//6. Print all the Strings in reverse order.
-		for (int z = 5; z>0; z--) {
+		for (int z = 4; z>=0; z--) {
 			System.out.println(array.get(z));
 		}
 		//7. Print only the Strings that have the letter 'e' in them.
+		for (int a = 0; a<5; a++) {
+			String b = array.get(a);
+			if (b.contains("e") == true) {
+				System.out.println(b);
+			}
+			else {}
+		}
 	}
 }
